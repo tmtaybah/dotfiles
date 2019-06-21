@@ -34,11 +34,15 @@ echo "changing shell from bash to zsh "
 SHELL=/usr/local/bin/zsh
 echo $SHELL >> /etc/shells
 chsh -s $(which zsh)
-source ~/.zshrc
+# source ~/.zshrc
 
 
 # install oh-my-zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+
+# download iterm2 one-dark theme
+git clone https://github.com/anunez/one-dark-iterm.git
 
 
 # install essential python packages
