@@ -34,7 +34,7 @@ echo "changing shell from bash to zsh "
 SHELL=/usr/local/bin/zsh
 echo $SHELL >> /etc/shells
 chsh -s $(which zsh)
-# source ~/.zshrc
+source ~/.zshrc
 
 
 # install oh-my-zsh
