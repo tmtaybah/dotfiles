@@ -2,9 +2,18 @@
 
 
 ---
-### Next Steps
-* automatic installation of brew
+### To-do:
+* automatically install brew?
 
-* add installation of ipython & jupyter
+* script to backup my essential directories to an external hard drive
 
-* script to backup my main directories to an external hard drive
+* ~~add installation of ipython & jupyter~~
+
+---
+### Commands I will likely instantly forget: 
+To search for a formula/package:  
+`$ brew search {pkg_name}` 
+
+To install an application using brew cask:  
+`$ brew cask home {app_name}`  
+`$ brew cask install {app_name} ` 
