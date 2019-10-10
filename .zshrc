@@ -8,6 +8,10 @@ export ZSH="/Users/tara/.oh-my-zsh"
 # Path to go workspace
 export GOPATH="$HOME/go"
 
+# Goodreads API developer keys
+export GR_KEY="7ip6xfhJBXAQXpKdJXIz2g"
+export GR_SECRET="ElbApXPyLvfHROumSL93BQ8FvWT6UgJag6gG83eKNZM"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -108,7 +112,7 @@ alias desktop="cd ~/Desktop"
 alias dev="cd ~/Developer"
 
 # work in progress
-alias wip="cd /Users/tara/Developer/tutorials/django/personal_portfolio"
+alias wip="cd /Users/tara/Developer/projects/compression_service"
 
 # Python
 alias python="python3"
@@ -177,10 +181,8 @@ tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | s
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
 
-
 # Load rbenv
 eval "$(rbenv init -)"
-
 
 # Virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
