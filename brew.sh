@@ -35,4 +35,5 @@ brew cask install postgres
 
 # other brew things
 brew install python
+brew install pyenv
 brew install tree
