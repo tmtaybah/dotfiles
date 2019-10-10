@@ -24,6 +24,8 @@ for file in ${files}; do
 done
 echo "...done"
 
+# install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # run the brew script (installs most applications)
 ./brew.sh
