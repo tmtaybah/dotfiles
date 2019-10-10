@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
+brew install wget
+
 # zsh
 echo "installing zsh..."
 brew install zsh zsh-completions
+brew install zsh-syntax-highlighting
 
 # macos applications
 echo "installing all basic applications..."
