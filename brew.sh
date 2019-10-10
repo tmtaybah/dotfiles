@@ -7,11 +7,10 @@ brew install zsh zsh-completions
 # macos applications
 echo "installing all basic applications..."
 brew cask install atom
-brew cask install bitwarden 
+brew cask install bitwarden
 brew cask install calibre
 brew cask install dashlane
 brew cask install docker
-# brew cask install evernote
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-backup-and-sync
