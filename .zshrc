@@ -3,14 +3,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to oh-my-zsh installation.
-export ZSH="/Users/tara/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 
 # Path to go workspace
 export GOPATH="$HOME/go"
-
-# Goodreads API developer keys
-export GR_KEY="7ip6xfhJBXAQXpKdJXIz2g"
-export GR_SECRET="ElbApXPyLvfHROumSL93BQ8FvWT6UgJag6gG83eKNZM"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,

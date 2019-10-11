@@ -1,18 +1,15 @@
 #!/usr/bin/env bash
 
-brew install wget
-
 # zsh
 echo "installing zsh..."
-brew install zsh zsh-completions
-brew install zsh-syntax-highlighting
+brew install zsh zsh-completions zsh-syntax-highlighting 
+
 
 # macos applications
 echo "installing all basic applications..."
 brew cask install atom
 brew cask install bitwarden
 brew cask install calibre
-brew cask install dashlane
 brew cask install docker
 brew cask install firefox
 brew cask install google-chrome
@@ -33,7 +30,10 @@ brew install postgresql
 brew cask install pgadmin4
 brew cask install postgres
 
+
 # other brew things
-brew install python
-brew install pyenv
 brew install tree
+brew install node   # needed for pure theme
+brew install wget
+brew install pyenv
+brew install python

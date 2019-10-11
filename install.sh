@@ -15,7 +15,7 @@ echo "Changing to the ${dotfiledir} directory"
 cd ${dotfiledir}
 
 # install brew
-echo "Installing brew ..."
+echo "Installing Homebrew ..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
