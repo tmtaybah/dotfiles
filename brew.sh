@@ -36,4 +36,5 @@ brew install tree
 brew install node   # needed for pure theme
 brew install wget
 brew install pyenv
+brew install rbenv
 brew install python

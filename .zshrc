@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.6.0/bin:$PATH
 
 # Path to oh-my-zsh installation.
 export ZSH="/Users/$USER/.oh-my-zsh"
@@ -111,11 +111,9 @@ alias dev="cd ~/Developer"
 alias wip="cd /Users/tara/Developer/projects/compression_service"
 
 # Python
+alias pip="pip3"
 alias python="python3"
 alias jp="jupyter notebook"
-
-# Ruby
-alias rb='ruby'
 
 alias grep='grep --color=auto'
 alias cpu='top -o cpu'   # CPU
@@ -130,6 +128,11 @@ alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to cli
 # Config zsh dotfile
 alias zshconfig="atom ~/.zshrc"
 alias srczsh="source ~/.zshrc"
+
+# Ruby
+alias rb='ruby'
+# Load rbenv
+eval "$(rbenv init -)"
 
 
 # Init PURE THEME
@@ -177,15 +180,15 @@ tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | s
 # uninstall by removing these lines or running `tabtab uninstall sls`
 # [[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
 
-# Load rbenv
-# eval "$(rbenv init -)"
 
-# Virtualenvwrapper
+
+#virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Developer/projects
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
-# source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
+
 
 # Pyenv
 eval "$(pyenv init -)"
