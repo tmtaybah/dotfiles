@@ -11,10 +11,10 @@ To install an application using brew cask:
 
 ---
 ### To-do:
-- [x] automatically install brew?
+- [x] automatically install brew
 
 - [ ] script to backup my essential directories to an external hard drive
 
-- [x] ~~add installation of ipython & jupyter~~
+- [x] add installation of ipython & jupyter
 
 - [ ] commands to setup ipython/jupyter notebook datascience kernel 
