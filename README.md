@@ -17,4 +17,4 @@ To install an application using brew cask:
 
 - [x] add installation of ipython & jupyter
 
-- [ ] commands to setup ipython/jupyter notebook datascience kernel 
+- [ ] commands to setup ipython/jupyter notebook data analysis kernel 

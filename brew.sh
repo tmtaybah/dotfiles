@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # zsh
-echo "installing zsh..."
-brew install zsh zsh-completions zsh-syntax-highlighting 
+echo "installing zsh & zsh related things..."
+brew install zsh zsh-completions zsh-syntax-highlighting z 
 
 
 # macos applications
@@ -32,6 +32,7 @@ brew cask install postgres
 
 
 # other brew things
+echo "installing all other things..."
 brew install tree
 brew install node   # needed for pure theme
 brew install wget
